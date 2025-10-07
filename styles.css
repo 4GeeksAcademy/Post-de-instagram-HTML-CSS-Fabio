@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column; 
+  align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.header .perfil .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    background: white;
+    width: 400px;
+    border: 1px solid #dbdbdb;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header .perfil{
+    display: flex;
+    flex-direction: row;
+    left: auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background: white;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+.header img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.header p {
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.photo img {
+    width: 100%;
+    display: block;
+}
+
+.postStatus {
+    padding: 10px;
+}
+
+.icons {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icons .leftIcons{
+     display: flex;
+}
+
+.rigthIcons img{
+    margin-right: 0;
+}
+
+.info {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.description {
+    padding: 0 10px 10px;
+    font-size: 14px;
+    color: #262626;
+    line-height: 1.4;
+}
